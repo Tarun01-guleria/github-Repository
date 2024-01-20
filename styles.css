@@ -1,0 +1,103 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.user-input {
+  padding: 20px;
+}
+
+#repo-list {
+  border: 2px solid black;
+}
+
+#username {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.reset {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 5px;
+  width: 125px;
+  margin-left: 30px;
+}
+
+.user-info img {
+  max-width: 30%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  display: block;
+  margin: auto;
+}
+
+.repo-item {
+  text-align: center;
+  margin: 20px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .repo-item {
+    margin: 10px 0;
+  }
+}
+
+.loader {
+  border: 6px solid #f3f3f3;
+  border-top: 6px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
