@@ -25,9 +25,20 @@ Features:
 
 5.Displays user information, including avatar, name, bio, location, and GitHub profile link.
 
+6.Reset button to Reload the page
+
 6.Shows a loader during API requests to indicate data fetching.
 
-Code Structure
+Error Handling:
+
+1.If no user name provided in input field then application displays alert please Enter Github username
+
+2.If username is not valid display alert please Enter valid username
+
+3.If no repositories are created by user then display alert No repositories found
+
+Code Structure:
+
 1.index.html: The main HTML file with the structure of the web page.
 
 2.styles.css: The CSS file for styling the application.
